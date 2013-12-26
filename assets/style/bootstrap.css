@@ -592,17 +592,19 @@
   width: 100%;
 }
 .page-contact form input[type='email'],
+.page-contact form input[type='tel'],
 .page-contact form input[type='text'] {
-  background-color: #CCCCCC;
+  background-color: #eeeeee;
   color: #666666;
   font-size: 0.8em;
 }
 .page-contact form input[type='email']:focus,
+.page-contact form input[type='tel']:focus,
 .page-contact form input[type='text']:focus {
-  background-color: #fff;
+  background-color: #ffffff;
 }
 .page-contact form textarea {
-  background-color: #CCCCCC;
+  background-color: #eeeeee;
   color: #666666;
   font-size: 0.8em;
 }
