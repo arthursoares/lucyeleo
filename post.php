@@ -1,8 +1,8 @@
 <?php
 
 	$uri = 'https://mandrillapp.com/api/1.0/messages/send.json';
-	$mensagem = '<html><body><h1>RSVP</h1><p>Nome:' . $_POST['NOME'] .'</p><p>E-mail: '. $_POST['EMAIL'] .'</p><p>Telefone: ' . $_POST['TELEFONE'] . '</p><p>Endereço: ' . $_POST['ENDERECO'] . '</p></body></html>';
-	$mensagem_txt = 'Nome: ' . $_POST['NOME'] .'/n E-mail: '. $_POST['EMAIL'] .'/n Telefone: ' . $_POST['TELEFONE'] . '/n Endereço: ' . $_POST['ENDERECO'];
+	$mensagem = '<html><body><h1>RSVP</h1><p>Nome:' . $_POST['NOME'] .'</p><p>E-mail: '. $_POST['EMAIL'] .'</p><p>Telefone: ' . $_POST['TELEFONE'] . '</p><p>Endereço: ' . $_POST['ENDERECO'] . '</p><p>Acompanhantes: ' . $_POST['ACOMPANHANTES'] . '</p></body></html>';
+	$mensagem_txt = 'Nome: ' . $_POST['NOME'] .'/n E-mail: '. $_POST['EMAIL'] .'/n Telefone: ' . $_POST['TELEFONE'] . '/n Endereço: ' . $_POST['ENDERECO'] . '/n Acompanhantes: ' . $_POST['ACOMPANHANTES'];
 
 	$postString = '{
 	"key": "l3CREPlqlK0Ku7YEvGpXHw",
