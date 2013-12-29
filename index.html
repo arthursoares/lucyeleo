@@ -271,11 +271,12 @@
                 <!-- Contact form -->
                 <div class="span6">
                     <h5>Confirmação de Presença</h5>
-                    <form>
-                        <input type="text" class="span12" placeholder="Nome completo" required="required">
-                        <input type="email" class="span12" placeholder="Email">
-                        <input type="tel" class="span12" placeholder="Telefone">
-                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    <form action="post.php" method="post" role="form" id="form-rsvp"
+                        <input type="text" class="span12" placeholder="Nome completo" required="required" name="NOME">
+                        <input type="email" class="span12" placeholder="Email" name="EMAIL">
+                        <input type="tel" class="span12" placeholder="Telefone" name="TELEFONE">
+                        <input type="text" class="span12" placeholder="Endereço" name="ENDERECO">
+                        <button type="submit"  class="btn btn-primary btn-block botao-enviar" data-loading-text="Enviando…" data-completo-text="Enviado!" data-erro-text="Ocorreu algum erro!">Enviar</button>
                     </form>
                 </div>
                 <!-- End Contact form -->
