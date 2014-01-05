@@ -71,5 +71,7 @@
 
 
 ?>
-
+<body>
+<?php include_once("analyticstracking.php") ?>
 Obrigado! Aguardamos ansiosos por voc&ecirc;s! :)
+</body>
