@@ -72,4 +72,4 @@
 
 ?>
 
-Obrigado! Aguardamos ansiosos por você!
+Obrigado! Aguardamos ansiosos por voc&ecirc;s! :)
