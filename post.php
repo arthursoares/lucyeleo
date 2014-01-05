@@ -69,7 +69,7 @@
 
 	$result = curl_exec($ch);
 
-
+	header("refresh:3;url=http://lucyeleo.com");
 ?>
 <body>
 <?php include_once("analyticstracking.php") ?>
